@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: orangered;
+    width: 100vw;
+    height: 89vh;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: black;
+    max-width: 30%;
+    height: 85%;
+    margin: auto auto;
+    display: block;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.cabecalho{
+    background-color: black;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.display{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    color: black;
+    padding-top: 10px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 20px;
+
+
+}
+
+button{
+    width: 6.9vw;
+    height: 60px;
+    margin: 2px;
+    margin-top: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+       
+
+}
+
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.baixo1{
+    width: 14vw;
+    height: 60px;
+    margin: 2px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.baixo2{
+    width: 14vw;
+    height: 60px;
+    margin: 2px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+
+.linha1{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.linha2{
+    display: flex;
+    justify-content: center;
+}
+
+.linha3{
+    display: flex;
+    justify-content: center;
+}
+
+.linha4{
+    display: flex;
+    justify-content: center;
+}
+
+.ultimalinha{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 0.5em;
+    
+}

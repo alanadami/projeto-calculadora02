@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="cabecalho">Calculadora</div>
+        <div class="display" id="idisplay"></div>
+        <div class="linha1">
+            <div><button id="limpar" onclick="limpar()" type="submit">C</button></div>
+            <div><button id="apagar" onclick="apagar()" type="submit"><</button></div>
+            <div><button id="divisao" onclick="insert('/')" type="submit">/</button></div>
+            <div><button id="multiplicacao" onclick="insert('*')" type="submit">X</button></div>
+        </div>
+        <div class="linha2">
+            <div><button id="n7" onclick="insert('7')" type="submit">7</button></div>
+            <div><button id="n8" onclick="insert('8')" type="submit">8</button></div>
+            <div><button id="n9" onclick="insert('9')" type="submit">9</button></div>
+            <div><button id="subtracao" onclick="insert('-')" type="submit">-</button></div>
+        </div>
+        <div class="linha3">
+            <div><button id="n4" onclick="insert('4')" type="submit">4</button></div>
+            <div><button id="n5" onclick="insert('5')" type="submit">5</button></div>
+            <div><button id="n6" onclick="insert('6')" type="submit">6</button></div>
+            <div><button id="adicao" onclick="insert('+')" type="submit">+</button></div>
+        </div>
+        <div class="linha4">
+            <div><button id="n1" onclick="insert('1')" type="submit">1</button></div>
+            <div><button id="n2" onclick="insert('2')" type="submit">2</button></div>
+            <div><button id="n3" onclick="insert('3')" type="submit">3</button></div>
+            <div><button id=","  onclick="insert('.')" type="submit">,</button></div>
+        </div>
+        <div class="ultimalinha">
+            <div><button class="baixo1" id="n0" onclick="insert('0')" type="submit">0</button></div>
+            <div><button class="baixo2" id="igual" onclick="calcular()" type="submit">=</button></div>
+        </div>
+        <p>By Alan Adami</p>
+    </section>
+    
+    <script src="calculadora.js"></script>
+</body>
+</html>
