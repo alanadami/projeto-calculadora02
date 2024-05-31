@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width: 600px){
+    
+    .container{
+        width: 300px;
+
+    }
+
+    .cabecalho > h2{
+        font-size: 40px;
+    
+    
+    }
+
+    .display{
+        font-size: 30px;
+    }
+
+    button{
+        width: 67px;
+        font-size: 25px;
+                 
+    }
+
+    .baixo1{
+        width: 138px;
+        font-size: 30px;
+    }
+    
+    .baixo2{
+        width: 138px;
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+
+}
